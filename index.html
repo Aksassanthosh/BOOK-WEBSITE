@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="bg-dark text-white text-center py-3">
+        <h2><MARquee>BOOKWAY</MARquee></h2>
+        
+    </div>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-lightbg-warning-subtle">
+        <img class="a1" src="data:image/png;base64,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" alt="logo" width="100px">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="signup.html">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="books.html">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <section class="py-5">
+        <div class="container text-center">
+            <h1 class="mb-4">BOOKWAY</h1>
+            <p class="a4">“The more that you read, the more things you will know. <br> The more that you learn, the more places you'll go.” —Dr. Seuss</p>
+        </div>
+    </section>
+
+   
+    <footer class="bg-dark text-white text-center py-3">
+        <h6>@copyright  BOOKWAY. All rights reserved.</h6>
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
